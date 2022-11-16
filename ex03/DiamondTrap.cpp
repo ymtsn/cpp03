@@ -9,3 +9,9 @@ void DiamondTrap::attack(const std::string& target)
 {
 	ScavTrap::attack(target);
 }
+
+void DiamondTrap::whoAmI()
+{
+	std::cout << "DiamondTrap name is" << Name \
+	<< " ClapTrap name is" << ClapTrap::Name << DiamondTrap::ScavTrap::ClapTrap::Name << std::endl;
+}
